@@ -1,0 +1,28 @@
+@font-face {
+	font-family: 'sow-elegantline';
+	src:url('http://https://github.com/trinhvanthong/trinhvnthong.gihub.io.git/wp-content/plugins/so-widgets-bundle/icons/elegantline/font/elegantline.eot');
+	src:url('http://https://github.com/trinhvanthong/trinhvnthong.gihub.io.git/wp-content/plugins/so-widgets-bundle/icons/elegantline/font/elegantline.eot') format('embedded-opentype'),
+		url('http://https://github.com/trinhvanthong/trinhvnthong.gihub.io.git/wp-content/plugins/so-widgets-bundle/icons/elegantline/font/elegantline.woff') format('woff'),
+		url('http://https://github.com/trinhvanthong/trinhvnthong.gihub.io.git/wp-content/plugins/so-widgets-bundle/icons/elegantline/font/elegantline.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+.sow-icon-elegantline {
+	font-family: 'sow-elegantline';
+	display: inline-block;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.sow-icon-elegantline[data-sow-icon]:before {
+	content: attr(data-sow-icon);
+}
